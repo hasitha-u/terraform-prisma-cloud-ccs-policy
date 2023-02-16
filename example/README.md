@@ -15,7 +15,7 @@ This example deploys Prisma Cloud Code Security policies from policy definitions
 ```bash
 $ export PRISMACLOUD_URL=<The API URL without the leading protocol>
 $ export PRISMACLOUD_USERNAME=<Prisma Cloud Service Account Access key ID>
-$ export PRISMACLOUD_USERNAME=<Prisma Cloud Service Account Secret key>
+$ export PRISMACLOUD_PASSWORD=<Prisma Cloud Service Account Secret key>
 $
 $ terraform init
 $ terraform plan

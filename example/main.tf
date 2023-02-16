@@ -11,5 +11,4 @@ locals {
 module "ccs_policies" {
   source   = "../"
   policies = local.policies
-
 }

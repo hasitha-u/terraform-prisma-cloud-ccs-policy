@@ -1,0 +1,13 @@
+metadata:
+  name: "Ensure GCP Service account keys have a rotation time specified" 
+  guidelines: "Ensure GCP Service account keys have a rotation time specified" 
+  category: general
+  severity: medium
+scope:
+  provider: gcp
+definition:
+  cond_type: attribute
+  resource_types: 
+  - google_service_account_key
+  attribute: keepers.rotation_time
+  operator: exists

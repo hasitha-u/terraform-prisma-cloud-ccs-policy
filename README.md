@@ -39,7 +39,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_policies"></a> [policies](#input\_policies) | A list of policy objects | `list(any)` | n/a | yes |
+| <a name="input_policies"></a> [policies](#input\_policies) | A list of policy objects | `any` | n/a | yes |
 
 ## Outputs
 
